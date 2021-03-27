@@ -1,0 +1,535 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*header section*/
+
+header{
+	width: 100%;
+	float: left;
+	position: absolute;
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 130px;
+    float: left;
+    margin: -6px 0px;
+
+}
+.menu{
+	width: 55%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 24px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.icon{
+	width: 30%;
+	float: left;
+}
+.icon ul{
+    list-style: none;
+}
+.icon ul li{
+    display: inline-block;
+    margin: 20px 5px;
+}
+.icon ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.fa.fa-facebook{
+    background: #3b5998;
+    padding: 5px 10px;
+    color: #fff;
+}
+.fa.fa-twitter{
+    background: #00acee;
+    padding: 5px 10px;
+    color: #fff;
+}
+.fa.fa-linkedin{
+	background: #0e76a8;
+    padding: 5px 10px;
+    color: #fff;
+}
+.fa.fa-google-plus{
+    background: #db4a39;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+/*image section*/
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	margin: 65px 0px;
+	position: relative;
+
+}
+.content{
+    padding: 30px 5px;
+    background: #00ffff59;
+    margin: 120px 50px;
+    position: absolute;
+
+}
+.content h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.content p{
+	font-size: 15px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+
+}
+.content ul{
+	 list-style: none;
+}
+.content ul li{
+    display: inline-block;
+    padding: 5px 15px;
+
+}
+.content ul li button{
+    background-color: #79da08b8;
+    color: white;
+    border: none;
+    padding: 10px 5px;
+    margin: 10px 25px;
+    border-radius: 5px;
+}
+
+/*details-section*/
+
+.details{
+	width: 100%;
+	float: left;
+
+}
+.concept{
+    width: 25%;
+    float: left;
+
+}
+.fa.fa-check{
+    margin: 5px 115px;
+    padding: 10px;
+    background: #697ad4;
+    border-radius: 50px;
+    color: white;
+}
+.concept h2{
+	text-align: center;
+    padding: 5px;
+}
+.concept p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+.concept button{
+	display: block;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background: #79da04cc;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+.loan{
+    width: 25%;
+	float: left;
+}
+
+.fa.fa-map-marker{
+    margin: 5px 115px;
+    padding: 10px;
+    background: #029789;
+    border-radius: 50px;
+    color: white;
+}
+.loan h2{
+    text-align: center;
+    padding: 5px;
+}
+.loan p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+.loan button{
+    display: block;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background: #79da04cc;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+
+.financing{
+	width: 25%;
+	float: left;
+}
+.fa.fa-usd{
+    margin: 5px 115px;
+    padding: 10px;
+    background: #43bf4b;
+    border-radius: 50px;
+    color: white;
+}
+.financing h2{
+    text-align: center;
+    padding: 5px;
+}
+.financing p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+.financing button{
+    display: block;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background: #79da04cc;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+
+.sign-up{
+	width: 25%;
+	float: left;
+}
+.fa.fa-user-plus{
+    margin: 5px 115px;
+    padding: 10px;
+    background: #92e76f;
+    border-radius: 50px;
+    color: white;
+}
+.sign-up h2{
+    text-align: center;
+    padding: 5px;
+}
+.sign-up p{
+    padding: 6px 14px;
+    text-align: justify;
+}
+.sign-up button{
+    display: block;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background: #79da04cc;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+
+/*about section*/
+
+.about{
+    width: 100%;
+    float: left;
+}
+
+.invest-money {
+    width: 27%;
+    float: left;
+    background: rgb(47 147 147 / 43%);
+    padding: 15px 36px;
+    margin: 50px 90px;
+}
+
+.fa.fa-dot-circle-o{
+    color: #149c19;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.invest-money h2 {
+    margin: 11px 23px;
+    text-align: center;
+}
+
+.invest-money ul{
+list-style: none;
+}
+
+.invest-money ul li {
+    padding: 4px 10px;
+}
+
+.invest-money button {
+    margin: 5px 10px;
+    padding: 6px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #79da04cc;
+    border-style: none;
+    color: white;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.invest-money1 {
+    width: 27%;
+    float: left;
+    background: rgb(47 147 147 / 43%);
+    padding: 15px 36px;
+    margin: 50px 90px;
+}
+
+.invest-money1 h2 {
+    margin: 11px 23px;
+    text-align: center;
+}
+
+.invest-money1 ul{
+    list-style: none;
+}
+
+.invest-money1 ul li{
+    padding: 4px 10px;
+}
+
+.invest-money1 button{
+    margin: 5px 10px;
+    padding: 6px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #79da04cc;
+    border-style: none;
+    color: white;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+/*blog section*/
+
+.blog{
+width: 100%;
+float: left;
+}
+
+.blog .text {
+    font-size: 35px;
+    padding: 15px 10px;
+    margin: 0px 500px;
+}
+
+.blog .blog-1{
+    width: 45%;
+    float: left;
+    padding: 15px 20px;
+}
+
+.blog h2 {
+    color: #224362;
+    padding: 10px 0px;
+}
+
+.blog p{
+    padding: 2px 2px;
+}
+
+.blog button{
+    background: #79da04cc;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    margin: 4px 4px;
+}
+
+.blog .blog-2{
+width: 45%;
+float: left;
+padding: 15px 13px;
+}
+
+.blog-2 h2{
+    color: #224362;
+    padding: 0px 0px;
+    margin: 10px 5px;
+}
+
+.blog-2 p{
+    margin: 1px 5px;
+}
+
+
+.blog-2 button{
+    background: #79da04cc;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    margin: 4px 4px;
+}
+
+/*lent section*/
+
+.lent{
+    width: 100%;
+    float: left;
+    background: #dcdcdc;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 25px 0px;
+    font-weight: bold;
+}
+
+/*pilot section*/
+
+.pilot{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.pilot .fa.fa-star{
+    color: #1eb0b0;
+    padding: 8px 4px;
+    font-size: 26px;
+}
+
+.pilot h4{
+    display:inline-block;
+    font-size: 19px;
+}
+
+.pilot ul{
+list-style: none;
+}
+
+.pilot ul li{
+    display: inline-block;
+}
+
+.pilot ul li .fa.fa-star-o{
+    background: #1ad31a;
+    color: white;
+    font-size: 25px;
+    padding: 4px;
+    margin: 6px 0px;
+}
+
+.pilot p{
+    padding-bottom: 10px;
+}
+
+/*dansk section*/
+
+.dansk{
+    width: 100%;
+    float: left;
+    background: #0000008f;
+    margin-top: 13px;
+}
+
+.dansk img{
+    width: 100%;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.dansk h6{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 24px;
+    font-weight: bold;
+}
+
+.dansk p{
+    color: black;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 15px 42px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.dansk-1{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-2{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-3{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-4{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+.dansk-5{
+    width: 15%;
+    float: left;
+    margin: 0px 22px;
+}
+
+
+/*footer section*/
+
+footer{
+    width: 100%;
+    float: left;
+    background: #042E3E;
+}
+
+.footer-1{
+    width: 35%;
+    float: left;
+    color: white;
+    text-align: right;
+    padding: 20px 0px;
+}
+
+.footer-2{
+    width: 65%;
+    float: right;
+    color:white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
